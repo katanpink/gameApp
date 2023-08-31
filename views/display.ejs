@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid {
+            display: flex;
+            flex-wrap: wrap;
+
+        }
+        .box {
+            width: 20%;
+            height: 70vh;
+            margin: 0;
+            padding: 2.5%;
+            text-align: center;
+            justify-content: center;
+        }
+        .image{
+            width: 100%;
+            height: 50%
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="grid">
+        <% games.forEach(game => { %>
+            <div class="box">
+            <h2> <%= game.name %></h2>
+            <h2> By: <%= game.developers %></h2>
+            <div>
+                <h3> <%= game.genre %></h3>
+            </div>
+            <div class="image" style="background-position: center; background-repeat: no-repeat; background-size: contain; background-image: url(<%= game.image %>)"></div>
+            <h1> <%= game.cost %></h1>
+            </div>
+        <% }) %>
+    </div>
+</body>
+</html>
