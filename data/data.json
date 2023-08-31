@@ -1,0 +1,42 @@
+[
+    {
+        "id":"1",
+        "name":"Street Fighter 6",
+        "genre":["Fighter", "Adventure"],
+        "developers":"Capcom",
+        "cost":"$54.99",
+        "image":"sf6.jfif"
+    },
+    {
+        "id":"2",
+        "name":"Elden Ring",
+        "genre":["Adventure", "Fighter", "Souls-like"],
+        "developers":"FromSoftware",
+        "cost":"$59.99",
+        "image":"elden.jfif"
+    },
+    {
+        "id":"3",
+        "name":"Bomb Rush Cyberfunk",
+        "genre": ["Platformer", "Adventure", "Indie"],
+        "developers":"Team Reptile",
+        "cost":"$39.99",
+        "image":"brcf.jfif"
+    },
+    {
+        "id":"4",
+        "name":"Overwatch 2",
+        "genre":["First-person Shooter", "Multiplayer"],
+        "developers":"Blizzard",
+        "cost":"Free To Play",
+        "image":"ow2.jfif"
+    },
+    {
+        "id":"5",
+        "name":"Pikmin 4",
+        "genre":["Action", "Puzzle", "Adventure", "Real-time Strategy"],
+        "developers":"Nintendo",
+        "cost":"$59.99",
+        "image":"pikmen.jfif"
+    }
+]
