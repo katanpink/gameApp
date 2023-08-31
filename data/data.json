@@ -38,5 +38,49 @@
         "developers":"Nintendo",
         "cost":"$59.99",
         "image":"pikmen.jfif"
+    },
+    {
+        "id": "6",
+        "name":"Rocket League",
+        "genre": ["sports", "racing", "cars"],
+        "developer": "Psyonix",
+        "cost": "Free",
+        "image": "/Rocket League.png"
+    },
+
+    {
+        "id": "7",
+        "name":"Risk of Rain 2",
+        "genre": ["Rouge-Like", "Survival", "Fighting"],
+        "developer": "Hopoo Games",
+        "cost": "$20",
+        "image": "/ROR2.jfif"
+    },
+
+    {
+        "id": "8",
+        "name":"Stardew Valley",
+        "genre": ["Survival", "Farming"],
+        "developer": "Concerned Ape",
+        "cost": "$20",
+        "image": "/Stardew Valley"
+    },
+
+    {
+        "id": "9",
+        "name":"Terra Tech",
+        "genre": ["Survival", "Building", "Sandbox"],
+        "developer": "Payload Studio",
+        "cost": "$20",
+        "image": "/Terra Tech.jfif"
+    },
+
+    {
+        "id": "10",
+        "name":"Super Smash Bros: Melee",
+        "genre": ["Fighting"],
+        "developer": "Nintendo",
+        "cost": "$20",
+        "image": "/SsbmBoxart.webp"
     }
 ]
