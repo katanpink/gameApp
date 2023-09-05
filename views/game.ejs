@@ -1,43 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        #bod {
+            background-color: rgb(41, 53, 103);
+        }
+
         .grid {
-            display: flex;
-            flex-wrap: wrap;
+            display: grid;
+            grid-template-columns: 30% 30% 30%;
+            width: 100%;
+            justify-content: center;
+            row-gap: 5%;
 
         }
+
         .box {
-            width: 20%;
-            height: 70vh;
+            width: 60%;
+            height: 40vh;
             margin: 0;
             padding: 2.5%;
             text-align: center;
             justify-content: center;
+            align-self: center;
+            justify-self: center;
+            background-color: rgb(42, 57, 114);
+            border-radius: 5%;
+            color: whitesmoke
         }
-        .image{
+
+        .image {
             width: 100%;
             height: 50%
-            
+        }
+        .deets{
+            display: grid;
+            grid-template-columns: 70% 30%;
+            text-align: left;
+            color: black
+        }
+        .modal-dialog{
+            background-color: rgb(42, 57, 114);
+        }
+        .modal-title{
+            color: black;
         }
     </style>
 </head>
-<body>
+
+<body id="bod">
     <div class="grid">
-        <% games.forEach(game => { %>
+        <% games.forEach(game=> { %>
             <div class="box">
-            <h2> <%= game.name %></h2>
-            <h2> By: <%= game.developers %></h2>
-            <div>
-                <h3> <%= game.genre %></h3>
+                <h2>
+                    <%= game.name %>
+                </h2>
+                <div class="image"
+                    style="background-position: center; background-repeat: no-repeat; background-size: contain; background-image: url(<%= game.image %>);">
+                </div>
+                <h1>
+                    <%= game.cost %>
+                </h1>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#<%= game.id %>">
+                    Select
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="<%= game.id %>" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel"><%= game.name %></h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body bd-example-modal-lg deets">
+                                <div><img src="<%= game.image %>"></div>
+                                <div>
+                                    <h3> By: <%= game.developers %>
+                                    </h3>
+                                    <p>
+                                        <%= game.genre %>
+                                    </p>
+                                    <h1>
+                                        <%= game.cost %>
+                                    </h1>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
-            <div class="image" style="background-position: center; background-repeat: no-repeat; background-size: contain; background-image: url(<%= game.image %>);"></div>
-            <h1> <%= game.cost %></h1>
-            </div>
-        <% }) %>
+            <% }) %>
     </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
-</html>
