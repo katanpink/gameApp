@@ -42,7 +42,7 @@
     {
         "id": "6",
         "name":"Rocket League",
-        "genre": ["sports", "racing", "cars"],
+        "genre": ["Sports", "Racing", "Cars"],
         "developer": "Psyonix",
         "cost": "Free",
         "image": "/Rocket League.png"

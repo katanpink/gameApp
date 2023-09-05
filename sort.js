@@ -1,7 +1,6 @@
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
-
 const games = require("./data/data.json");
 
 app.use(bodyParser.urlencoded({extended: false}));
@@ -12,29 +11,19 @@ app.use(express.static("./public"))
 app.set("view engine", "ejs");
 app.set("views", "./views");
 
-app.get("/sort", (req, res) => {
-    res.render('sort');
-})
-
-app.post("/sort/display", (req, res) => {
-    const tags = req.body.tags.split(" ");
-
+app.post("/sort", (req, res) => {
+    const tags =  req.body.tags != null ? req.body.tags.split(" ") : "";
     const ids = games.filter(x => contansTag(x, tags));
-    console.log(ids);
-
-    res.render("display", {games: ids});
-});
-
-app.listen(3000);
+    
+    res.render('display', {games: ids});
+}).listen(3000);
 
 function contansTag(element, tags){
-    let includes = false;
-   
-    tags.forEach(x => {
-        if(element.genre.includes(x)){
-            includes = true
-        }
-    })
-
-    return includes;
+    for(let tag of tags){
+        if(element.genre.includes(formatInput(tag)))
+            return true;
+    }
+    return false;
 }
+
+const formatInput = (string) => string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
