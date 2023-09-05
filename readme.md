@@ -10,22 +10,22 @@ Download the Vape repository onto your machine to begin vaping!
 
 ### Dependencies
 
-*Node.Js
-*Express.Js
-*Body-Parser
+* Node.Js
+* Express.Js
+* Body-Parser
 
 ### Installing
 
-*Copy the Repository onto your machine.
-*Install the dependicies using NPM.
+* Copy the Repository onto your machine.
+* Install the dependicies using NPM.
 
 ### Executing program
 
-*In the console, got to the projects directory and type:
+* In the console, got to the projects directory and type:
 ```
 node app.js
 ```
-*To exicute
+* To execute
 ## Help
 
 Any advise for common problems or issues.
