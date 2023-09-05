@@ -1,12 +1,12 @@
 # Project Title
-
-Simple overview of use/purpose.
+Smoke
 
 ## Description
-
-An in-depth paragraph about your project and overview of use.
+Smoke is an all in one game browser for searching for and displaying games! Smokes library allows users to see game titles and prices. 
 
 ## Getting Started
+
+
 
 ### Dependencies
 
