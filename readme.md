@@ -1,11 +1,11 @@
-# Vape
+# Smoke
 
 ## Description
-Vape is an all in one game browser for searching for and displaying games! Vapes library allows users to see game titles and prices. 
+Smopke is an all in one game browser for searching for and displaying games! Smokes library allows users to see game titles and prices. 
 
 ## Getting Started
 
-Download the Vape repository onto your machine to begin vaping!
+Download the Vape repository onto your machine to begin!
 
 ### Dependencies
 
