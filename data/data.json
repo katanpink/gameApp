@@ -2,18 +2,18 @@
     {
         "id":"1",
         "name":"Street Fighter 6",
-        "genre":["Fighter", "Adventure"],
+        "genre":["Fighting", "Adventure"],
         "developers":"Capcom",
         "cost":"$54.99",
-        "image":"sf6.jfif"
+        "image":"sf6.png"
     },
     {
         "id":"2",
         "name":"Elden Ring",
-        "genre":["Adventure", "Fighter", "Souls-like"],
+        "genre":["Adventure", "Fighting", "Souls-like"],
         "developers":"FromSoftware",
         "cost":"$59.99",
-        "image":"elden.jfif"
+        "image":"elden.png"
     },
     {
         "id":"3",
@@ -21,7 +21,7 @@
         "genre": ["Platformer", "Adventure", "Indie"],
         "developers":"Team Reptile",
         "cost":"$39.99",
-        "image":"brcf.jfif"
+        "image":"brcf.png"
     },
     {
         "id":"4",
@@ -29,58 +29,58 @@
         "genre":["First-person Shooter", "Multiplayer"],
         "developers":"Blizzard",
         "cost":"Free To Play",
-        "image":"ow2.jfif"
+        "image":"ow2.png"
     },
     {
         "id":"5",
         "name":"Pikmin 4",
-        "genre":["Action", "Puzzle", "Adventure", "Real-time Strategy"],
+        "genre":[ "Puzzle", "Adventure", "Real-time Strategy"],
         "developers":"Nintendo",
         "cost":"$59.99",
-        "image":"pikmen.jfif"
+        "image":"pikmen.png"
     },
     {
         "id": "6",
         "name":"Rocket League",
         "genre": ["sports", "racing", "cars"],
-        "developer": "Psyonix",
+        "developers": "Psyonix",
         "cost": "Free",
-        "image": "/Rocket League.png"
+        "image": "/Rocket_League.png"
     },
 
     {
         "id": "7",
         "name":"Risk of Rain 2",
         "genre": ["Rouge-Like", "Survival", "Fighting"],
-        "developer": "Hopoo Games",
+        "developers": "Hopoo Games",
         "cost": "$20",
-        "image": "/ROR2.jfif"
+        "image": "/ROR2.png"
     },
 
     {
         "id": "8",
         "name":"Stardew Valley",
         "genre": ["Survival", "Farming"],
-        "developer": "Concerned Ape",
+        "developers": "Concerned Ape",
         "cost": "$20",
-        "image": "/Stardew Valley"
+        "image": "/Stardew_Valley.png"
     },
 
     {
         "id": "9",
         "name":"Terra Tech",
         "genre": ["Survival", "Building", "Sandbox"],
-        "developer": "Payload Studio",
+        "developers": "Payload Studio",
         "cost": "$20",
-        "image": "/Terra Tech.jfif"
+        "image": "/Terra_Tech.png"
     },
 
     {
         "id": "10",
         "name":"Super Smash Bros: Melee",
-        "genre": ["Fighting"],
-        "developer": "Nintendo",
+        "genre": ["Fighting", "Platformer"],
+        "developers": "Nintendo",
         "cost": "$20",
-        "image": "/SsbmBoxart.webp"
+        "image": "/SsbmBoxart.png"
     }
 ]
