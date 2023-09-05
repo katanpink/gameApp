@@ -28,7 +28,7 @@
         "name":"Overwatch 2",
         "genre":["First-person Shooter", "Multiplayer"],
         "developers":"Blizzard",
-        "cost":"Free To Play",
+        "cost":"Free",
         "image":"ow2.png"
     },
     {
@@ -82,5 +82,50 @@
         "developers": "Nintendo",
         "cost": "$20",
         "image": "/SsbmBoxart.png"
+    },
+
+    {
+        "id": "11",
+        "name":"Pokemon Black",
+        "genre": ["Strategy", "Adventure", "Collector"],
+        "developers": "Nintendo",
+        "cost": "$59.99",
+        "image": "/pblack.png"
+    },
+
+    {
+        "id": "12",
+        "name":"Pokemon Black",
+        "genre": ["Strategy", "Adventure", "Collector"],
+        "developers": "Nintendo",
+        "cost": "$59.99",
+        "image": "/pwhite.png"
+    },
+
+    {
+        "id": "13",
+        "name":"Pokemon Emerald Rogue",
+        "genre": ["Strategy", "Rouge-Like", "Survival", "Adventure"],
+        "developers": "Pokabbie",
+        "cost": "Free",
+        "image": "/pemerald.png"
+    },
+
+    {
+        "id": "14",
+        "name":"The legend of Zelda: TOTK",
+        "genre": ["Survival", "Adventure", "Fighting", "Puzzle", "Platformer", "Sandbox"],
+        "developers": "Nintendo",
+        "cost": "$69.99",
+        "image": "/totk.png"
+    },
+     
+    {
+        "id": "15",
+        "name":"Lethal League Blaze",
+        "genre": ["Fighting", "sports"],
+        "developers": "Team Reptile",
+        "cost": "$19.99",
+        "image": "/lethal.png"
     }
 ]
