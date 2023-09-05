@@ -1,22 +1,22 @@
 # Project Title
-Smoke
+Vape
 
 ## Description
-Smoke is an all in one game browser for searching for and displaying games! Smokes library allows users to see game titles and prices. 
+Vape is an all in one game browser for searching for and displaying games! Vapes library allows users to see game titles and prices. 
 
 ## Getting Started
 
-
+Download the Vape repository onto your machine to begin vaping!
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+#Node.Js
+#Express.Js
+#Body-Parser
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+#Copy the Repository onto your machine.
 
 ### Executing program
 
