@@ -1,5 +1,4 @@
-# Project Title
-Vape
+# Vape
 
 ## Description
 Vape is an all in one game browser for searching for and displaying games! Vapes library allows users to see game titles and prices. 
