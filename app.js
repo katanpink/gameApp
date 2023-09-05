@@ -1,40 +1,29 @@
-const express = require('express');
+const express = require("express");
 const app = express();
+const bodyParser = require("body-parser");
+const games = require("./data/data.json");
 
+app.use(bodyParser.urlencoded({extended: false}));
 
 app.use(express.json())
-
-
-//app.use(express.static(__dirname + "/public"))
 app.use(express.static("./public"))
+
 app.set("view engine", "ejs");
 app.set("views", "./views");
+app.get("/sort", (req, res) => res.render("game", {games}));
+app.post("/sort", (req, res) => {
+    const tags =  req.body.tags != null ? req.body.tags.split(" ") : "";
+    const found = games.filter(x => contansTag(x, tags));
+    
+    res.render('game', {games: found});
+}).listen(3000);
 
+function contansTag(element, tags){
+    for(let tag of tags){
+        if(element.genre.includes(formatInput(tag)))
+            return true;
+    }
+    return false;
+}
 
-const students = require("./data/data.json");
-// import students from "data/students.json";
-
-
-app.get("/", (req, res) => {
-    res.render("game", {games});
-})
-
-
-app.get("/student/:id", (req, res) => {
-    const game = games.find(s => s.id == req.params.id);
-    res.render("game", game);
-   
-})
-
-
-app.all("*", (req, res) => {
-    res.status(404).send("404 Not Found")
-})
-
-
-const PORT = process.env.PORT || 3000
-
-
-app.listen(PORT, () => {
-    console.log(`Server is running on port ${PORT}`)
-})
+const formatInput = (string) => string.charAt(0).toUpperCase() + string.slice(1).toLowerCase();
