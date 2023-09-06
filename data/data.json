@@ -4,6 +4,7 @@
         "name":"Street Fighter 6",
         "genre":["Fighting", "Adventure"],
         "developers":"Capcom",
+        "description":"Street Fighter 6 offers a highly evolved combat system with three control types - Classic, Modern and Dynamic - allowing you to quickly play to your skill level. The new Real Time Commentary Feature adds all the hype of a competitive match as well as easy-to-understand explanations about your gameplay.",
         "cost":"$54.99",
         "image":"sf6.png"
     },
@@ -12,6 +13,7 @@
         "name":"Elden Ring",
         "genre":["Adventure", "Fighting", "Souls-like"],
         "developers":"FromSoftware",
+        "description":"Elden Ring is a third-person perspective, action, role-playing game with a focus on combat and exploration. It includes elements that are similar to those in other FromSoftware-developed games such as the Dark Souls series, Bloodborne, and Sekiro: Shadows Die Twice.",
         "cost":"$59.99",
         "image":"elden.png"
     },
@@ -20,6 +22,7 @@
         "name":"Bomb Rush Cyberfunk",
         "genre": ["Platformer", "Adventure", "Indie"],
         "developers":"Team Reptile",
+        "description":"Start your own cypher and dance, paint graffiti, collect beats, combo your tricks and face off with the cops to stake your claim to the sprawling metropolis of New Amsterdam. Red is a graffiti writer who lost his head and instead uses a cyberhead to get around.",
         "cost":"$39.99",
         "image":"brcf.png"
     },
@@ -28,6 +31,7 @@
         "name":"Overwatch 2",
         "genre":["First-person Shooter", "Multiplayer"],
         "developers":"Blizzard",
+        "description":"Overwatch 2 is a free-to-play shooter featuring 30+ epic heroes, each with game-changing abilities. Choose your hero, group up with your friends and battle across all-new maps and modes in the ultimate team-based shooter.(WARNING BAD GAME)",
         "cost":"Free",
         "image":"ow2.png"
     },
@@ -36,6 +40,7 @@
         "name":"Pikmin 4",
         "genre":[ "Puzzle", "Adventure", "Real-time Strategy"],
         "developers":"Nintendo",
+        "description":"Pikmin 4 retains Pikmin types from previous games, and introduces two new species: Ice Pikmin, which are invulnerable to being frozen and can freeze enemies and bodies of water; and Glow Pikmin, which operate at night and are usable during the Night Time Expeditions.",
         "cost":"$59.99",
         "image":"pikmen.png"
     },
@@ -44,6 +49,7 @@
         "name":"Rocket League",
         "genre": ["sports", "racing", "cars"],
         "developers": "Psyonix",
+        "description":"Rocket League is a video game the combines arcade-style soccer and driving games. You play by controlling rocket-powered vehicles, which you can use to score goals with a giant soccer ball. Gameplay is energetic and chaotic as the cars can flip and fly in all directions.",
         "cost": "Free",
         "image": "/Rocket_League.png"
     },
@@ -53,6 +59,7 @@
         "name":"Risk of Rain 2",
         "genre": ["Rouge-Like", "Survival", "Fighting"],
         "developers": "Hopoo Games",
+        "description":"Players control a survivor who is stranded on an alien planet. To survive, they navigate through various environments, killing monsters and looting chests to collect items that boost their offensive and defensive capabilities. Over time, the game's difficulty increases, spawning more powerful and dangerous creatures.",
         "cost": "$20",
         "image": "/ROR2.png"
     },
@@ -62,6 +69,7 @@
         "name":"Stardew Valley",
         "genre": ["Survival", "Farming"],
         "developers": "Concerned Ape",
+        "description":"Stardew Valley is open-ended, allowing players to grow crops, raise livestock, fish, cook, mine, forage, and socialize with the townspeople, including the ability to marry and have children. It allows up to four players to play online together. Barone developed Stardew Valley by himself over four and a half years.",
         "cost": "$20",
         "image": "/Stardew_Valley.png"
     },
@@ -71,6 +79,7 @@
         "name":"Terra Tech",
         "genre": ["Survival", "Building", "Sandbox"],
         "developers": "Payload Studio",
+        "description":"TerraTech is an open-world, sandbox adventure game, where you design and build your own creations through a mix of crafting, combat and discovery. Explore, build, craft and battle across alien worlds in a physics-based construction sandbox. Design cars, tanks and planes from a huge library of blocks.",
         "cost": "$20",
         "image": "/Terra_Tech.png"
     },
@@ -80,6 +89,7 @@
         "name":"Super Smash Bros: Melee",
         "genre": ["Fighting", "Platformer"],
         "developers": "Nintendo",
+        "description":"",
         "cost": "$20",
         "image": "/SsbmBoxart.png"
     },
@@ -89,6 +99,7 @@
         "name":"Pokemon Black",
         "genre": ["Strategy", "Adventure", "Collector"],
         "developers": "Nintendo",
+        "description":"",
         "cost": "$59.99",
         "image": "/pblack.png"
     },
@@ -98,6 +109,7 @@
         "name":"Pokemon Black",
         "genre": ["Strategy", "Adventure", "Collector"],
         "developers": "Nintendo",
+        "description":"",
         "cost": "$59.99",
         "image": "/pwhite.png"
     },
@@ -107,6 +119,7 @@
         "name":"Pokemon Emerald Rogue",
         "genre": ["Strategy", "Rouge-Like", "Survival", "Adventure"],
         "developers": "Pokabbie",
+        "description":"",
         "cost": "Free",
         "image": "/pemerald.png"
     },
@@ -116,6 +129,7 @@
         "name":"The legend of Zelda: TOTK",
         "genre": ["Survival", "Adventure", "Fighting", "Puzzle", "Platformer", "Sandbox"],
         "developers": "Nintendo",
+        "description":"",
         "cost": "$69.99",
         "image": "/totk.png"
     },
@@ -125,6 +139,7 @@
         "name":"Lethal League Blaze",
         "genre": ["Fighting", "sports"],
         "developers": "Team Reptile",
+        "description":"",
         "cost": "$19.99",
         "image": "/lethal.png"
     }
