@@ -5,7 +5,7 @@ Smopke is an all in one game browser for searching for and displaying games! Smo
 
 ## Getting Started
 
-Download the Vape repository onto your machine to begin!
+Download the Smoke repository onto your machine to begin!
 
 ### Dependencies
 
