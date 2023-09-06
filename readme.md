@@ -28,7 +28,7 @@ To execute
 
 * To Sort Games write:
 ```
-http://127.0.0.1:3000/sort
+http://127.0.0.1:3000
 ```
 to access search and sort.
 ## Authors
@@ -37,6 +37,9 @@ Contributors names
 
 * Daniel Morris
 * Ethan Heimer
+* Steam Descriptor
+* Xbox Descriptor
+* Nintendo Descriptor
   
 ## Version History
 
