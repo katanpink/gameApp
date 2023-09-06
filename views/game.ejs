@@ -32,7 +32,8 @@
             justify-self: center;
             background-color: rgb(42, 57, 114);
             border-radius: 5%;
-            color: whitesmoke
+            color: whitesmoke;
+            /* filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0)); */
         }
 
         .image {
@@ -51,16 +52,21 @@
         .modal-title{
             color: black;
         }
+        h1{
+            padding-top: 5%;
+            font-size: 150%;
+        }
     </style>
 </head>
 
 <body id="bod">
+    <%-include("./partials/sortForm.ejs")%>
     <div class="grid">
         <% games.forEach(game=> { %>
             <div class="box">
-                <h2>
+                <h1>
                     <%= game.name %>
-                </h2>
+                </h1>
                 <div class="image"
                     style="background-position: center; background-repeat: no-repeat; background-size: contain; background-image: url(<%= game.image %>);">
                 </div>
@@ -89,9 +95,15 @@
                                 <div>
                                     <h3> By: <%= game.developers %>
                                     </h3>
+                                    <hr>
                                     <p>
                                         <%= game.genre %>
                                     </p>
+                                    <hr>
+                                    <p>
+                                        <%= game.description %>
+                                    </p>
+                                    <hr>
                                     <h1>
                                         <%= game.cost %>
                                     </h1>
@@ -117,3 +129,5 @@
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
 </body>
+
+</html>
