@@ -1,11 +1,11 @@
-# Smoke
+# Content Buying Database(CBD)
 
 ## Description
-Smopke is an all in one game browser for searching for and displaying games! Smokes library allows users to see game titles and prices. 
+CBD is an all in one game browser for searching for and displaying games! CBD's library allows users to see game titles and prices. 
 
 ## Getting Started
 
-Download the Smoke repository onto your machine to begin!
+Download the CBD repository onto your machine to begin!
 
 ### Dependencies
 
