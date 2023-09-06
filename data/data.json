@@ -89,7 +89,7 @@
         "name":"Super Smash Bros: Melee",
         "genre": ["Fighting", "Platformer"],
         "developers": "Nintendo",
-        "description":"",
+        "description":"Like its predecessor, Super Smash Bros. Melee is a platform fighter that differs from traditional fighting games as the objective is to force their opponents beyond the boundaries of the stage. Most attacks inflict damage and can, if enough damage is dealt, knock back the enemy.",
         "cost": "$20",
         "image": "/SsbmBoxart.png"
     },
@@ -99,17 +99,17 @@
         "name":"Pokemon Black",
         "genre": ["Strategy", "Adventure", "Collector"],
         "developers": "Nintendo",
-        "description":"",
+        "description":"In addition to a wealth of new Pokémon for players to catch, train and battle with, Pokémon Black Version also supplies players with entirely new ways to fight with its new Battle Modes: Triple Battles and Rotation Battles",
         "cost": "$59.99",
         "image": "/pblack.png"
     },
 
     {
         "id": "12",
-        "name":"Pokemon Black",
+        "name":"Pokemon White",
         "genre": ["Strategy", "Adventure", "Collector"],
         "developers": "Nintendo",
-        "description":"",
+        "description":"Pokémon White Version features the same handheld RPG and Adventure gameplay that has consistently thrilled Nintendo DS players, both young and more experienced, but it also introduces players to an all-new Unova region.",
         "cost": "$59.99",
         "image": "/pwhite.png"
     },
@@ -119,7 +119,7 @@
         "name":"Pokemon Emerald Rogue",
         "genre": ["Strategy", "Rouge-Like", "Survival", "Adventure"],
         "developers": "Pokabbie",
-        "description":"",
+        "description":"When you go on an adventure, all routes, encounters, and items are chosen procedurally based on your progress through a run. After a certain number of routes, you will come across a random gym leader with a procedurally selected team of their assigned type; as you progress further into a run, gym leaders and other trainers will begin using more difficult setups for their Pokemon.",
         "cost": "Free",
         "image": "/pemerald.png"
     },
@@ -129,7 +129,7 @@
         "name":"The legend of Zelda: TOTK",
         "genre": ["Survival", "Adventure", "Fighting", "Puzzle", "Platformer", "Sandbox"],
         "developers": "Nintendo",
-        "description":"",
+        "description":"Tears of the Kingdom takes place a number of years after Breath of the Wild, at the end of the Zelda timeline in the kingdom of Hyrule. Link and Zelda set out to explore a cavern beneath Hyrule Castle, from which gloom, a poisonous substance, has been seeping out and causing people to fall ill.",
         "cost": "$69.99",
         "image": "/totk.png"
     },
@@ -139,8 +139,38 @@
         "name":"Lethal League Blaze",
         "genre": ["Fighting", "sports"],
         "developers": "Team Reptile",
-        "description":"",
+        "description":"Lethal League Blaze is an intense, high speed ball game, with unique characters, outta sight sounds and none of that weak stuff. In Shine City, the anti-gravity ball game has long been illegal. The group who kept playing was dubbed the Lethal League.",
         "cost": "$19.99",
         "image": "/lethal.png"
+    },
+
+    {
+        "id": "16",
+        "name":"Bloons Tower Defense 6",
+        "genre": ["Real-time Strategy", "Puzzle", "Survival"],
+        "developers": "Ninja Kiwi",
+        "description":"Bloons TD 6 currently features a roster of 23 monkeys (3 new monkeys and 20 returning from previous BTD games) and 13 heroes to help pop bloons. These monkeys are split into four classes: Primary, Military, Magic, and Support.",
+        "cost": "$6.99",
+        "image": "btd6.png"
+    },
+
+    {
+        "id":"17",
+        "name":"Gran Turismo 7",
+        "genre":["racing", "Survival", "sports"],
+        "developers":"PolyPhony Digital",
+        "description":"Gran Turismo 7 brings together the very best features of the Real Driving Simulator. Whether you're a competitive or casual racer, collector, tuner, livery designer or photographer – find your line with a staggering collection of game modes including fan-favorites like GT Campaign, Arcade and Driving School.",
+        "cost":"$59.99",
+        "image":"grant.png"
+    },
+
+    {
+        "id":"18",
+        "name":"Titanfall2",
+        "genre":["First-person Shooter", "Platformer", "Adventure"],
+        "developers":"Respawn",
+        "description":"Similar to its predecessor, Titanfall 2 is a first-person shooter where players can control both a pilot and their Titans—mecha-style robots that stand roughly seven to ten meters tall. The pilot has a large variety of equipment that enhance their abilities during combat.",
+        "cost":"$59.99",
+        "image":"titanf.png"
     }
 ]
