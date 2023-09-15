@@ -10,8 +10,8 @@ app.use(express.static("./public"))
 
 app.set("view engine", "ejs");
 app.set("views", "./views");
-app.get("/sort", (req, res) => res.render("game", {games}));
-app.post("/sort", (req, res) => {
+app.get("/", (req, res) => res.render("game", {games}));
+app.post("/", (req, res) => {
     const tags =  req.body.tags != null ? req.body.tags.split(" ") : "";
     const found = games.filter(x => contansTag(x, tags));
     
